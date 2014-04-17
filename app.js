@@ -36,7 +36,9 @@
     renderNextComic: function() {
       var comic = this.comics.shift();
       if (!comic) {
-        return this.loadComics();
+        this.switchTo('loading');
+        this.loadComics();
+        return;
       }
       this.switchTo('comic', comic);
       this.$('.content img').wrap('<a href="' + comic.link + '" target="_blank"></a>');
