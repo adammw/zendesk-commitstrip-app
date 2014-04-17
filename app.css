@@ -1,0 +1,50 @@
+& {
+  position: relative;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+header {
+  .action_button {
+    float: right;
+    margin-right: 60px;
+    line-height: 30px;
+
+    span {
+      display: none;
+    }
+
+    &:hover span {
+      display: inline;
+    }
+  }
+
+  .logo {
+    position: absolute;
+    height: 48px;
+    width: 60px;
+    right: 12px;
+    top: 12px;
+    background-size: cover;
+  }
+}
+
+.loading {
+  padding: 12px 24px 24px 24px;
+}
+
+[data-main] header {
+  border: none;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  border-top: 1px dotted #ccc;
+  color: #999;
+}

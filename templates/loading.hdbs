@@ -1,0 +1,3 @@
+<div class="loading" title="{{t "loading"}}&hellip;">
+  {{spinner "dotted"}}
+</div>

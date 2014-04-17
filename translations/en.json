@@ -1,0 +1,29 @@
+{
+  "app": {
+    "package": "commitstrip_app",
+    "description": {
+      "value": "Display comics from commitstrip.com",
+      "title": "app description"
+    },
+    "name": {
+      "value": "CommitStrip App",
+      "title": "app name"
+    }
+  },
+  "loading": {
+    "value": "Loading",
+    "title": "loading spinner title"
+  },
+  "published_at": {
+    "value": "published {{date}}",
+    "title": "published date"
+  },
+  "attribution": {
+    "value": "Powered by <a href=\"http://commitstrip.com\">commitstrip.com</a>",
+    "title": "footer attribution"
+  },
+  "refresh": {
+    "value": "Refresh Comic",
+    "title": "refresh button text"
+  }
+}
