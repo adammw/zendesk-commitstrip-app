@@ -41,13 +41,13 @@
         return;
       }
       this.switchTo('comic', comic);
-      this.$('.content img').wrap('<a href="' + comic.link + '" target="_blank"></a>');
+      this.$('.content img:not(.wp-smiley)').wrap('<a href="' + comic.link + '" target="_blank"></a>');
     },
 
     makeArray: function(arr) {
       // Workaround for lack of $.makeArray
       // Ref: https://github.com/zendesk/zendesk_app_framework/pull/198
-      
+
       var class2type = {}, toString = {}.toString, push = [].push;
       "Boolean Number String Function Array Date RegExp Object Error".split(" ").forEach(function(name) {
         class2type[ "[object " + name + "]" ] = name.toLowerCase();

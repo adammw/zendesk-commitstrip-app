@@ -40,7 +40,7 @@ header {
   border: none;
 }
 
-.content img {
+.content img:not(.wp-smiley) {
   width: 100%;
   height: auto;
 }
