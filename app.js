@@ -5,7 +5,7 @@
 
     requests: {
       randomComic: {
-        url: 'http://www.commitstrip.com/en/feed/?orderby=rand',
+        url: 'http://www.commitstrip.com/en/feed/?orderby=rand&USER_LANG=en&',
         dataType: 'xml',
         cache: false
       }
